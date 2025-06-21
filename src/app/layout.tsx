@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${sourceSans3.variable} ${sourceSans3.className} antialiased relative bg-[#f3f3f3]`}
+        className={`${sourceSans3.variable} ${sourceSans3.className} antialiased relative bg-white`}
       >
         <Navbar />
         <div className="mt-20">{children}</div>

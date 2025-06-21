@@ -14,7 +14,7 @@ export default function Home() {
     sectionRef.current?.scrollIntoView({ behavior: "smooth" });
   };
   return (
-    <div className=" items-center bg-[#F3F3F3]  min-h-screen w-full pb-32 ">
+    <div className="bg-white items-center bg-[#F3F3F3]  min-h-screen w-full pb-32 ">
       <Header onScroll={handleScroll} />
       <div ref={sectionRef} className="pt-16">
         <ProductsHome />

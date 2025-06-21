@@ -38,12 +38,12 @@ const page = (props: Props) => {
   }, [page]);
 
   return (
-    <div>
-      <Image alt="background" src={BannerCoconut} />
-      <div className="mx-auto lg:w-[1280px] w-11/12">
-        <div className="mt-10 grid grid-cols-1 lg:grid-cols-3 gap-5">
+    <div className="bg-white">
+      <Image className="w-full bg-white" alt="background" src={BannerCoconut} />
+      <div className="mx-auto lg:w-[1280px] bg-white w-11/12">
+        <div className="mt-10 grid grid-cols-1 lg:grid-cols-3 gap-5 bg-white">
           {isLoading ? (
-            <p>Loading...</p>
+            <div className="bg-white"><p>Loading...</p></div>
           ) : (
             articles?.map((article) => (
               <Link
@@ -68,7 +68,7 @@ const page = (props: Props) => {
                       height={40}
                       src="/images/logococonut.png"
                     />
-                    <div className="flex  items-end space-x-5">
+                    <div className="flex bg-white items-end space-x-5">
                       <div className="">
                         <p>{article.penulis}</p>
                         <p>
@@ -88,7 +88,7 @@ const page = (props: Props) => {
                       </p>
                     </div>
                   </div>
-                  <p className=" mt-4 text-lg font-semibold text-[#1C1B1B]">
+                  <p className=" mt-4 text-lg font-semibold text-black">
                     {article.judul}
                   </p>
 
@@ -100,7 +100,7 @@ const page = (props: Props) => {
             ))
           )}
         </div>
-        <div className=" p-4 mb-10">
+        <div className=" p-4 mb-10 bg-white">
           <PaginationComponent
             currentPage={pagination?.current_page || 0}
             totalPages={pagination?.total_pages || 0}

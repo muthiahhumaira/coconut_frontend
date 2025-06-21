@@ -33,7 +33,7 @@ export const dummyBelieves: DummyBelieves[] = [
 const Believes = () => {
   return (
     <div className="lg:w-[1280px] w-11/12 mx-auto mt-52">
-      <h1 className="text-left justify-start flex font-semibold text-3xl">
+      <h1 className="text-left justify-start flex font-semibold text-3xl text-black">
         Our Believes
       </h1>
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-5 mt-4">
