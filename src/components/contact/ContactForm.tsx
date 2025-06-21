@@ -54,14 +54,14 @@ const ContactForm = () => {
         encType="multipart/form-data"
         className="bg-white p-6 rounded-xl  shadow-lg"
       >
-        <h2 className="text-xl font-bold mb-4">CONTACT US</h2>
+        <h2 className="text-xl font-bold mb-4 text-black">CONTACT US</h2>
         <div className="overflow-x-auto mb-4">
           <table className="table-auto w-full border">
             <thead>
               <tr>
                 <th
                   colSpan={2}
-                  className="bg-[#9CA091] text-white p-2 text-center"
+                  className="bg-[#9CA091] text-white p-2 text-center rounded"
                 >
                   Let’s Collaborate!
                 </th>
@@ -69,8 +69,8 @@ const ContactForm = () => {
             </thead>
             <tbody>
               <tr>
-                <td className="border p-2">Company / Individual Name</td>
-                <td className="border p-2">
+                <td className="border border-[#474546] p-2 text-black">Company / Individual Name</td>
+                <td className="border border-[#474546] p-2 text-black">
                   <input
                     name="company_name"
                     required
@@ -81,8 +81,8 @@ const ContactForm = () => {
                 </td>
               </tr>
               <tr>
-                <td className="border p-2">Contact Person Name</td>
-                <td className="border p-2">
+                <td className="border border-[#474546] p-2 text-black">Contact Person Name</td>
+                <td className="border border-[#474546] p-2 text-black">
                   <input
                     name="personal_name"
                     value={form.personal_name}
@@ -92,8 +92,8 @@ const ContactForm = () => {
                 </td>
               </tr>
               <tr>
-                <td className="border p-2">Email</td>
-                <td className="border p-2">
+                <td className="border border-[#474546] p-2 text-black">Email</td>
+                <td className="border border-[#474546] p-2 text-black">
                   <input
                     name="email"
                     type="email"
@@ -104,8 +104,8 @@ const ContactForm = () => {
                 </td>
               </tr>
               <tr>
-                <td className="border p-2">Phone Number</td>
-                <td className="border p-2">
+                <td className="border border-[#474546] p-2 text-black">Phone Number</td>
+                <td className="border border-[#474546] p-2 text-black">
                   <input
                     name="phone"
                     value={form.phone}
@@ -115,8 +115,8 @@ const ContactForm = () => {
                 </td>
               </tr>
               <tr>
-                <td className="border p-2">Message / Collaboration Details</td>
-                <td className="border p-2">
+                <td className="border border-[#474546] p-2 text-black">Message / Collaboration Details</td>
+                <td className="border border-[#474546] p-2 text-black">
                   <textarea
                     name="message"
                     value={form.message}
@@ -131,7 +131,7 @@ const ContactForm = () => {
 
         <div className="flex justify-between items-center lg:px-20">
           <div>
-            <label className="block mb-2">Upload Document</label>
+            <label className="block mb-2 text-black">Upload Document</label>
 
             <input
               type="file"

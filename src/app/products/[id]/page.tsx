@@ -40,7 +40,7 @@ const page = (props: Props) => {
                   <p className="text-[#474546] font-bold text-2xl">
                     {products.nama}
                   </p>
-                  <p className="whitespace-pre-line">{products.deskripsi}</p>
+                  <p className="whitespace-pre-line text-black">{products.deskripsi}</p>
                 </div>
               </div>
             </div>
@@ -53,7 +53,7 @@ const page = (props: Props) => {
                   <p className="text-xl font-bold text-[#474546]">
                     Spesification
                   </p>
-                  <p className="whitespace-pre-line">
+                  <p className="whitespace-pre-line text-black">
                     {products.detail_spesifikasi}
                   </p>
                 </div>
@@ -73,7 +73,7 @@ const page = (props: Props) => {
                           <td className="py-3 px-4 font-medium text-white  bg-[#9CA091]">
                             Category
                           </td>
-                          <td className="py-3 px-4">
+                          <td className="py-3 px-4 text-black">
                             {products.spesifikasi.Odour}
                           </td>
                         </tr>
@@ -81,7 +81,7 @@ const page = (props: Props) => {
                           <td className="py-3 px-4 font-medium text-white  bg-[#9CA091]">
                             Moisture
                           </td>
-                          <td className="py-3 px-4">
+                          <td className="py-3 px-4 text-black">
                             {products.spesifikasi.Moisture}
                           </td>
                         </tr>
@@ -89,7 +89,7 @@ const page = (props: Props) => {
                           <td className="py-3 px-4 font-medium text-white  bg-[#9CA091]">
                             Free Fatty Acid
                           </td>
-                          <td className="py-3 px-4">
+                          <td className="py-3 px-4 text-black">
                             {products.spesifikasi["Free Fatty Acid"] === "FREE"
                               ? "Data not available"
                               : products.spesifikasi["Free Fatty Acid"]}
@@ -99,7 +99,7 @@ const page = (props: Props) => {
                           <td className="py-3 px-4 font-medium text-white  bg-[#9CA091]">
                             Solubility in Water
                           </td>
-                          <td className="py-3 px-4">
+                          <td className="py-3 px-4 text-black">
                             {products.spesifikasi["Solubility in Water"]}
                           </td>
                         </tr>
@@ -107,7 +107,7 @@ const page = (props: Props) => {
                           <td className="py-3 px-4 font-medium text-white  bg-[#9CA091]">
                             Unsaponifiable Materia
                           </td>
-                          <td className="py-3 px-4">
+                          <td className="py-3 px-4 text-black">
                             {products.spesifikasi["Unsaponifiable Materia"]}
                           </td>
                         </tr>

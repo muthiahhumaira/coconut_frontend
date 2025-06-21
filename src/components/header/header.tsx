@@ -20,7 +20,6 @@ const Header = ({ onScroll }: HeaderProps) => {
             We aim to create a self sustaining community where all processes are
             environmentally friendly, utilizing all parts of coconut without
             waste. Dewacoco also generates its own green energy using coconut
-            husk as a biomass fuel
           </p>
           <button
             onClick={onScroll}

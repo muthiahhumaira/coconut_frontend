@@ -36,12 +36,12 @@ const Page = () => {
   console.log("🚀 ~ Page ~ pagination:", pagination);
 
   return (
-    <div>
+    <div className="bg-[#F3F3F3] text-black">
       <Image alt="background" src={BannerCoconut} />
       <div className="mx-auto lg:w-[1280px] w-11/12">
         <div className="mt-10 flex flex-col space-y-8 pb-10">
           {isLoading ? (
-            <p>Loading...</p>
+            <div className="bg-[#F3F3F3]"><p>Loading...</p></div>
           ) : products.length > 0 ? (
             <>
               {products.map((product, index) => (
@@ -70,7 +70,7 @@ const Page = () => {
                       </p>
 
                       <Link
-                        className="flex items-center gap-x-2"
+                        className="flex items-center gap-x-2 hover:border w-fit px-2 rounded-full"
                         href={`/products/${product.id}`}
                       >
                         Detail Spesification <IoArrowForwardCircle />
