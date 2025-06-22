@@ -14,18 +14,12 @@ const ProductsHome = () => {
         <div className=" block lg:flex w-11/12 mx-auto justify-between">
           <div className="w-full lg:w-2/5 ">
             <h1 className="text-3xl w-2/3  font-bold">
-              Serve Nature's Best – Pure Coconut, Pure Pleasure
+              We don’t just process coconuts — we build long-term value for partners, people, and the planet.
             </h1>
           </div>
           <div className="w-full lg:w-3/5">
             <h1 className="text-justify">
-              Amerta Coco (PT. Amerta Agro Indonesia) is Best Coconut Supplier
-              From Indonesia as generations of experience in developing coconut
-              based products. Creating a sustainable synergy that integrates
-              business with the environment, we value social stability within
-              our communities. Embolden with the spirit of innovation, we
-              dedicate research into the creation of products that are essential
-              to our partners and consumers.
+              We specialize in producing high-quality, semi-finished coconut products for global industries — from food manufacturing and cosmetics to energy and agriculture. Based in Indonesia, one of the world’s richest sources of coconut, we work closely with local farmers and certified facilities to deliver sustainable, traceable, and consistent coconut ingredients at scale.
             </h1>
             <button
               onClick={scrollToProducts}

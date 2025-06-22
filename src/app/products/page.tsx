@@ -70,7 +70,7 @@ const Page = () => {
                       </p>
 
                       <Link
-                        className="flex items-center gap-x-2 hover:border w-fit px-2 rounded-full"
+                        className="flex items-center gap-x-2 hover:border w-fit px-2 rounded-full font-bold"
                         href={`/products/${product.id}`}
                       >
                         Detail Spesification <IoArrowForwardCircle />

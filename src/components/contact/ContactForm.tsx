@@ -131,7 +131,7 @@ const ContactForm = () => {
 
         <div className="flex justify-between items-center lg:px-20">
           <div>
-            <label className="block mb-2 text-black">Upload Document</label>
+            <label className="block mb-2 text-black font-bold">Upload Document</label>
 
             <input
               type="file"
