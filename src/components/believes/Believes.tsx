@@ -10,23 +10,23 @@ interface DummyBelieves {
 export const dummyBelieves: DummyBelieves[] = [
   {
     title: "Sustainability",
-    image: "/images/productbg.png",
-    desc: "We make sure all our processes leave as little carbon footprint as possible. ",
+    image: "/images/earth.png",
+    desc: "We ensure that every step of our process minimizes environmental impact and promotes long-term ecological balance. ",
   },
   {
-    title: "Sustainability",
-    image: "/images/productbg.png",
-    desc: "We make sure all our processes leave as little carbon footprint as possible. ",
+    title: "Quality Commitment",
+    image: "/images/quality (1).png",
+    desc: "We are dedicated to delivering only the highest quality coconut-based products through stringent control and certified standards.",
   },
   {
-    title: "Sustainability",
-    image: "/images/productbg.png",
-    desc: "We make sure all our processes leave as little carbon footprint as possible. ",
+    title: "Empowering Communities",
+    image: "/images/care (1).png",
+    desc: "We collaborate with local farmers and communities to ensure fair trade, support livelihoods, and build sustainable partnerships.",
   },
   {
-    title: "Sustainability",
-    image: "/images/productbg.png",
-    desc: "We make sure all our processes leave as little carbon footprint as possible. ",
+    title: "Innovation and Integrity ",
+    image: "/images/project-management (1).png",
+    desc: "We continuously improve our processes with integrity, blending tradition and technology to meet the evolving global demand. ",
   },
 ];
 

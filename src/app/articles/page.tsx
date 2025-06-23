@@ -69,7 +69,7 @@ const page = (props: Props) => {
                       src="/images/logococonut.png"
                     />
                     <div className="flex bg-white items-end space-x-5">
-                      <div className="">
+                      <div className="text-black">
                         <p>{article.penulis}</p>
                         <p>
                           {new Date(article.tanggal_terbit).toLocaleDateString(
