@@ -7,14 +7,15 @@ export interface ProductsData {
   deskripsi: string;
   gambar: string;
   spesifikasi: {
-    Color: string;
-    Odour: string;
-    Moisture: string;
-    "Iodine Value": string;
-    "Free Fatty Acid": string;
-    "Solubility in Water": string;
-    "Saponification Value": string;
-    "Unsaponifiable Materia": string;
+    Ingredients: string;
+    "Moisture Content": string;
+    "Oil/Fat Content": string;
+    Appearance: string;
+    Packaging: string;
+    "Shelf Life": string;
+    Certifications: string;
+    Origin: string;
+    Use: string;
   };
   detail_spesifikasi: string;
   created_at: string;

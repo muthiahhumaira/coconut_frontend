@@ -20,7 +20,6 @@ const Footer = (props: Props) => {
           <Link href="/">About Us</Link>
           <Link href="/">Product</Link>
           <Link href="/">Article</Link>
-          <Link href="/">Our Approach</Link>
         </div>
 
         <p className="mt-4 lg:mt-8 text-center w-full text-white text-xl ">

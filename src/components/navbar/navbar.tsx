@@ -30,8 +30,6 @@ const Navbar = () => {
               <Link href="/products">Products</Link>
             </li>
             <Link href="/articles">Articles</Link>
-
-            <li className="cursor-pointer">Our Approach</li>
           </ul>
         </div>
 
