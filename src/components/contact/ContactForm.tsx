@@ -116,9 +116,11 @@ const ContactForm = () => {
                 <td className="border border-[#474546] p-2 text-black">
                   <input
                     name="phone"
+                    type="number"
                     value={form.phone}
                     onChange={handleChange}
                     className="w-full"
+                    required
                   />
                 </td>
               </tr>
