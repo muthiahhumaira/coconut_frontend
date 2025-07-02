@@ -24,13 +24,13 @@ const dummyBelieves: DummyBelieves[] = [
   {
     id: 3,
     title: "Empowering Communities",
-    image: "/images/care (1).png",
+    image: "/images/diversity (1).png",
     desc: "We collaborate with local farmers and communities to ensure fair trade, support livelihoods, and build sustainable partnerships.",
   },
   {
     id: 4,
     title: "Innovation and Integrity",
-    image: "/images/project-management (1).png",
+    image: "/images/task-management (1).png",
     desc: "We continuously improve our processes with integrity, blending tradition and technology to meet the evolving global demand.",
   },
 ];
