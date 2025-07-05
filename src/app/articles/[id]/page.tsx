@@ -42,7 +42,7 @@ const page = (props: Props) => {
                 })}
               </p>
               <img src={articles.gambar} className="mx-auto rounded-xl" />
-              <p className="mt-5 text-base text-black text-justify">
+              <p className="mt-5 text-lg text-black text-justify">
                 {articles.deskripsi.replace(/<[^>]*>/g, "")}
               </p>
             </div>

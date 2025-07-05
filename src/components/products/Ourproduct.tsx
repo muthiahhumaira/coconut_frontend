@@ -43,7 +43,7 @@ export default function OurProducts() {
           <h2 className="text-2xl md:text-3xl font-bold text-black mb-4">
             Our Products
           </h2>
-          <p className="text-black text-base leading-relaxed mb-6">
+          <p className="text-black text-lg leading-relaxed mb-6">
             The coconut fruit is a versatile material which can be processed
             into many value-added products. We ensure the highest quality end
             products to meet with the international trade standards.
